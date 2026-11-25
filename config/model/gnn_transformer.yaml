@@ -1,0 +1,11 @@
+_target_: src.model.gnn_transformer.GNNTransformer
+d_model: 1024
+gnn_in_features: "${eval:'${max_num_qubits} * 2 + 5'}"
+vocab_size: 984
+nhead: 16
+dim_feedforward: 2048
+num_encoder_layers: 8
+num_decoder_layers: 8
+num_gnn_layers: 4
+dropout: ${dropout}
+gradient_checkpointing: false

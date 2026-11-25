@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Experiments, checkpoints, logs, and datasets
+outputs/
+savedir*/
+data/
+logs/
+*.ckpt
+*.pt
+*.pth
+*.tar
+*.tar.gz
+*.jsonl
+*.jsonl.gz
+tensorboard/
+.hydra/
+
+# OS & editor artifacts
+.DS_Store
+.vscode/
+.idea/
+*.swp
